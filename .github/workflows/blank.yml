@@ -4,7 +4,7 @@ name: evaluacion_1
 
 on:
   push:
-    branches: [ "main","feature","hotfix","develop" ]
+    branches: [ "develop" ]
   pull_request:
     branches: [ "main" ]
 
@@ -17,5 +17,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: acción al realizar push en alguna rama
+      - name: acción al realizar push en develop o pull_request en main
         run: echo "Acción ejecutada correctamente..."
