@@ -7,7 +7,9 @@ Para trabajo en este repositorio se utilizó TBD (Trunk-Based Development),
 la preferencia del uso se debe a la fácilidad de trabajar de forma individual ya que permite realizar
 cambios de forma más constante y arreglos más rápidos que el método GitFlow que considero que es mucho más recomendable
 en repositorios con un mayor equipo de desarrollo/colaboradores de por medio trabajar con TBD me ayuda a realizar el trabajo de manera más fluida y rápida.
+
 ---
+
 # Documentación de convenciones commits, Flujos de merge, Estrategias de revisión 
 
 ### Commits
@@ -21,6 +23,8 @@ en repositorios con un mayor equipo de desarrollo/colaboradores de por medio tra
   - test: tests  
   - chore: mantenimiento  
 
+---
+
 ### Flujos de merge
 
 - main estable (producción).  
@@ -31,6 +35,8 @@ en repositorios con un mayor equipo de desarrollo/colaboradores de por medio tra
   2. Subir cambios -> Pull Request (PR).
   3. Merge a main directamente.
 
+---
+
 #### Estrategia de revisión:
 
 + Todo cambio pasa por Pull Request (PR).
@@ -40,6 +46,8 @@ en repositorios con un mayor equipo de desarrollo/colaboradores de por medio tra
 + Revisar calidad de código, pruebas, estilo y documentación.
 
 + Mantener ramas actualizadas antes de mergear.
+
+---
 
   ### Naming de ramas
 
